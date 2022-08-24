@@ -8,7 +8,7 @@ import RouteTwo from './pages/RouteTwo'
 
 function App() {
   return (
-    <div>
+    <div className='app-style'>
       <Nav />
       <Routes >
         <Route path='/' element={<RouteOne />} />
